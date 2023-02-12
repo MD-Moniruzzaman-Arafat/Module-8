@@ -16,3 +16,13 @@
     height: 100px;
     font-weight: bold;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper div {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
